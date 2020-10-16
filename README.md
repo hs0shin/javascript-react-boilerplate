@@ -1,2 +1,3 @@
 # javascript-react-boilerplate
-react + javascript + redux
+
+react + javascript + redux + redux-saga
