@@ -1,0 +1,20 @@
+{
+	"fc": {
+		"scope": "javascript",
+		"prefix":["fc"],
+		"body":["import React from 'react'",
+		"import styled, { css } from 'styled-components';",
+		"\nconst Wrapper = styled.div`",
+		"\tdisplay: flex;",
+		"`;",
+		"\nexport default function ${TM_FILENAME/(.*)\\..+$/$1/}({ $2 }) {",
+			"\treturn (",
+			"\t\t<Wrapper>",
+			"\t\t\t$3",
+			"\t\t</Wrapper>",
+			"\t);",
+		"}"
+		],
+		"description": "React Function Component in Javascript Generation"
+	},
+}
